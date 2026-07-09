@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Zomato Clone</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body class="bg-light">
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger shadow sticky-top">
+<div class="container">
+
+<a class="navbar-brand fw-bold fs-2" href="#">
+🍽 Zomato
+</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item">
+<a class="nav-link active" href="dashboard.html">Home</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="about.html">About Us</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="restaurants.html">Restaurants</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link active" href="menu.html">Menu</a>
+</li>
+
+
+
+<li class="nav-item">
+<a class="nav-link active" href="order.html">Order</a>
+</li>
+<li class="nav-item">
+<a class="nav-link active" href="contactus.html">Contact</a>
+</li>
+
+
+
+<li class="nav-item">
+    <a href="login.html" class="btn btn-light text-danger ms-lg-3 fw-bold">
+        Sign Up
+    </a>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+</nav>
+
+<!-- Hero -->
+
+<section class="text-white d-flex align-items-center"
+style="height:95vh;background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1500&q=80') center/cover;">
+
+<div class="container">
+
+<div class="row justify-content-center">
+
+<div class="col-lg-8">
+
+<div class="bg-dark bg-opacity-50 rounded-4 p-5 text-center shadow-lg">
+
+<h1 class="display-3 fw-bold">
+Discover the Best Food Near You
+</h1>
+
+<p class="lead mt-3">
+Order food, discover restaurants, and enjoy amazing dining experiences.
+</p>
+
+<div class="input-group input-group-lg mt-4">
+
+<span class="input-group-text">
+<i class="bi bi-geo-alt-fill text-danger"></i>
+</span>
+
+<input type="text" class="form-control" placeholder="Enter Location">
+
+<input type="text" class="form-control" placeholder="Search Restaurant">
+
+<button class="btn btn-danger">
+Search
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- Collections -->
+
+<!-- Popular Collections Section -->
+<section class="py-5 bg-light">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="fw-bold display-5 text-danger">
+                Popular Collections
+            </h2>
+            <p class="text-muted">
+                Discover the best restaurants, cafes, and trending food spots near you.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Collection 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card border-0 shadow-lg h-100 rounded-4 overflow-hidden">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Luxury Dining"
+                        style="height:250px; object-fit:cover;">
+
+                    <div class="card-body text-center">
+                        <h4 class="fw-bold text-danger">
+                            Luxury Dining
+                        </h4>
+
+                        <p class="text-muted">
+                            Experience premium restaurants with elegant interiors and world-class cuisine.
+                        </p>
+
+                        <a href="#" class="btn btn-outline-danger rounded-pill px-4">
+                            Explore
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Collection 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card border-0 shadow-lg h-100 rounded-4 overflow-hidden">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Pizza Lovers"
+                        style="height:250px; object-fit:cover;">
+
+                    <div class="card-body text-center">
+                        <h4 class="fw-bold text-danger">
+                            Pizza Lovers
+                        </h4>
+
+                        <p class="text-muted">
+                            Discover the most delicious pizzas, cheesy delights, and Italian flavors.
+                        </p>
+
+                        <a href="cart.html" class="btn btn-outline-danger rounded-pill px-4">
+                            Explore
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Collection 3 -->
+            <div class="col-lg-4 col-md-6 mx-md-auto">
+                <div class="card border-0 shadow-lg h-100 rounded-4 overflow-hidden">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Trending Cafes"
+                        style="height:250px; object-fit:cover;">
+
+                    <div class="card-body text-center">
+                        <h4 class="fw-bold text-danger">
+                            Trending Cafes
+                        </h4>
+
+                        <p class="text-muted">
+                            Relax with handcrafted coffee, desserts, and a cozy atmosphere.
+                        </p>
+
+                        <a href="cart.html" class="btn btn-outline-danger rounded-pill px-4">
+                            Explore
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Categories -->
+<!-- ===================== Order by Category ===================== -->
+
+<section class="py-5 bg-light">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="fw-bold display-5 text-danger">
+                Order by Category
+            </h2>
+            <p class="text-muted">
+                Choose your favorite food and order instantly.
+            </p>
+        </div>
+
+        <div class="row g-4 text-center">
+
+            <div class="col-6 col-md-3">
+                <div class="card border-0 shadow-lg rounded-4 h-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Pizza"
+                        style="height:180px; object-fit:cover;">
+
+                    <div class="card-body">
+                        <h4>🍕</h4>
+                        <h5 class="fw-bold">Pizza</h5>
+                        <span class="badge bg-danger rounded-pill">120+ Restaurants</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="card border-0 shadow-lg rounded-4 h-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Burger"
+                        style="height:180px; object-fit:cover;">
+
+                    <div class="card-body">
+                        <h4>🍔</h4>
+                        <h5 class="fw-bold">Burger</h5>
+                        <span class="badge bg-warning text-dark rounded-pill">80+ Restaurants</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="card border-0 shadow-lg rounded-4 h-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Noodles"
+                        style="height:180px; object-fit:cover;">
+
+                    <div class="card-body">
+                        <h4>🍜</h4>
+                        <h5 class="fw-bold">Noodles</h5>
+                        <span class="badge bg-success rounded-pill">65+ Restaurants</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3">
+                <div class="card border-0 shadow-lg rounded-4 h-100 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80"
+                        class="card-img-top"
+                        alt="Desserts"
+                        style="height:180px; object-fit:cover;">
+
+                    <div class="card-body">
+                        <h4>🍰</h4>
+                        <h5 class="fw-bold">Desserts</h5>
+                        <span class="badge bg-info rounded-pill">90+ Restaurants</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ===================== Popular Restaurants ===================== -->
+
+<section class="py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2 class="fw-bold display-5 text-danger">
+                Popular Restaurants
+            </h2>
+            <p class="text-muted">
+                Top-rated restaurants loved by thousands of food lovers.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Restaurant 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card border-0 shadow-lg rounded-4 h-100 overflow-hidden">
+
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80"
+                        class="card-img-top"
+                        alt="Italian Bistro"
+                        style="height:250px; object-fit:cover;">
+
+                    <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h4 class="fw-bold">Italian Bistro</h4>
+                            <span class="badge bg-success">4.8 ★</span>
+                        </div>
+
+                        <p class="text-muted">
+                            Italian • Pizza • Pasta
+                        </p>
+
+                        <div class="d-flex justify-content-between mb-3">
+                            <small>⏱ 30 min</small>
+                            <small>🚚 Free Delivery</small>
+                        </div>
+
+                        <a href="cart.html" class="btn btn-danger w-100 rounded-pill">
+    Order Now
+</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Restaurant 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card border-0 shadow-lg rounded-4 h-100 overflow-hidden">
+
+                    <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=1200&q=80"
+                        class="card-img-top"
+                        alt="Burger House"
+                        style="height:250px; object-fit:cover;">
+
+                    <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h4 class="fw-bold">Burger House</h4>
+                            <span class="badge bg-success">4.7 ★</span>
+                        </div>
+
+                        <p class="text-muted">
+                            Burger • Fries • Fast Food
+                        </p>
+
+                        <div class="d-flex justify-content-between mb-3">
+                            <small>⏱ 25 min</small>
+                            <small>🚚 Free Delivery</small>
+                        </div>
+
+                       
+<a href="cart.html" class="btn btn-danger w-100 rounded-pill">
+    Order Now
+</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Restaurant 3 -->
+            <div class="col-lg-4 col-md-6 mx-md-auto">
+                <div class="card border-0 shadow-lg rounded-4 h-100 overflow-hidden">
+
+                    <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?auto=format&fit=crop&w=1200&q=80"
+                        class="card-img-top"
+                        alt="Asian Kitchen"
+                        style="height:250px; object-fit:cover;">
+
+                    <div class="card-body">
+
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <h4 class="fw-bold">Asian Kitchen</h4>
+                            <span class="badge bg-success">4.9 ★</span>
+                        </div>
+
+                        <p class="text-muted">
+                            Chinese • Thai • Noodles
+                        </p>
+
+                        <div class="d-flex justify-content-between mb-3">
+                            <small>⏱ 20 min</small>
+                            <small>🚚 Free Delivery</small>
+                        </div>
+
+                        <a href="cart.html" class="btn btn-danger w-100 rounded-pill">
+    Order Now
+</a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- ===================== Download App ===================== -->
+
+<section class="bg-danger text-white py-5">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+
+                <span class="badge bg-light text-danger mb-3">
+                    Download App
+                </span>
+
+                <h1 class="display-4 fw-bold">
+                    Get the Zomato App
+                </h1>
+
+                <p class="lead my-4">
+                    Order your favorite food anytime, track deliveries live, discover new restaurants, and enjoy exclusive app-only offers.
+                </p>
+
+                <button class="btn btn-light btn-lg rounded-pill me-3 mb-3">
+                    <i class="bi bi-google-play"></i>
+                    Google Play
+                </button>
+
+                <button class="btn btn-dark btn-lg rounded-pill mb-3">
+                    <i class="bi bi-apple"></i>
+                    App Store
+                </button>
+
+            </div>
+
+            <div class="col-lg-6 text-center">
+
+                <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png"
+                    class="img-fluid"
+                    alt="Mobile App"
+                    style="max-height:420px;">
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+
+<footer class="bg-dark text-white py-5">
+
+<div class="container">
+
+<div class="row">
+
+<div class="text-center">
+
+<p>
+🍽 Discover the best food & drinks around you.
+</p>
+
+
+</div>
+
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
