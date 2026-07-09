@@ -5,3 +5,131 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/yogitakatkar2006-ship-it/Zomato_clone.git
 git push -u origin main
+
+
+git remote add origin https://github.com/yogitakatkar2006-ship-it/Zomato_clone.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+icrosoft Windows [Version 10.0.19045.6466]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Admin\Documents\Zomato>git init
+Initialized empty Git repository in C:/Users/Admin/Documents/Zomato/.git/
+
+C:\Users\Admin\Documents\Zomato>git add .
+
+C:\Users\Admin\Documents\Zomato>git commit -m "first commit"
+[master (root-commit) 503515c] first commit
+ 17 files changed, 7065 insertions(+)
+ create mode 100644 about.html
+ create mode 100644 admindashboard.html
+ create mode 100644 biryani.html
+ create mode 100644 burger.html
+ create mode 100644 cart.html
+ create mode 100644 chinese.html
+ create mode 100644 contactus.html
+ create mode 100644 dashboard.html
+ create mode 100644 drink.html
+ create mode 100644 github comand.txt
+ create mode 100644 login.html
+ create mode 100644 menu.html
+ create mode 100644 order.html
+ create mode 100644 pizza.html
+ create mode 100644 register.html
+ create mode 100644 restaurants.html
+ create mode 100644 south.html
+
+C:\Users\Admin\Documents\Zomato>git branch -M main
+
+C:\Users\Admin\Documents\Zomato>git remote add origin https://github.com/yogitakatkar2006-ship-it/Zomato_clone.git
+
+C:\Users\Admin\Documents\Zomato>git push -u origin main
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (19/19), done.
+Writing objects: 100% (19/19), 23.68 KiB | 1.32 MiB/s, done.
+Total 19 (delta 10), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (10/10), done.
+To https://github.com/yogitakatkar2006-ship-it/Zomato_clone.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Admin\Documents\Zomato>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
